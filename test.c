@@ -15,7 +15,7 @@ int main(void) {
     buffer* b;
     int i;
 
-    tests(1);
+    tests(18);
 
     b = buffer_init();
     ok(NULL == b->ptr, "ptr is NULL by default");
